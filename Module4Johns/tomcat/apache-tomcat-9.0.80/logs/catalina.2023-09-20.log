@@ -1,0 +1,93 @@
+20-Sep-2023 17:57:03.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+20-Sep-2023 17:57:03.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+20-Sep-2023 17:57:03.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+20-Sep-2023 17:57:03.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 17:57:03.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 17:57:03.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 17:57:03.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 17:57:03.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 17:57:03.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 17:57:03.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 17:57:03.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\conf\logging.properties
+20-Sep-2023 17:57:03.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 17:57:03.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 17:57:03.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 17:57:03.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 17:57:03.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 17:57:03.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 17:57:03.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\temp
+20-Sep-2023 17:57:03.439 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+20-Sep-2023 17:57:03.439 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 17:57:03.439 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 17:57:03.450 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+20-Sep-2023 17:57:03.785 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:57:03.826 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [674] milliseconds
+20-Sep-2023 17:57:03.881 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 17:57:03.881 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+20-Sep-2023 17:57:03.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\docs]
+20-Sep-2023 17:57:04.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\docs] has finished in [324] ms
+20-Sep-2023 17:57:04.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\examples]
+20-Sep-2023 17:57:04.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\examples] has finished in [566] ms
+20-Sep-2023 17:57:04.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\host-manager]
+20-Sep-2023 17:57:04.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\host-manager] has finished in [49] ms
+20-Sep-2023 17:57:04.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\manager]
+20-Sep-2023 17:57:04.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\manager] has finished in [50] ms
+20-Sep-2023 17:57:04.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\ROOT]
+20-Sep-2023 17:57:04.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\ROOT] has finished in [27] ms
+20-Sep-2023 17:57:04.915 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 17:57:04.960 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1132] milliseconds
+20-Sep-2023 18:33:08.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.80
+20-Sep-2023 18:33:08.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 23 2023 21:59:38 UTC
+20-Sep-2023 18:33:08.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.80.0
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 18:33:08.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 18:33:08.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Sep-2023 18:33:08.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Sep-2023 18:33:08.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Sep-2023 18:33:08.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Sep-2023 18:33:08.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Sep-2023 18:33:08.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\conf\logging.properties
+20-Sep-2023 18:33:08.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Sep-2023 18:33:08.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Sep-2023 18:33:08.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Sep-2023 18:33:08.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Sep-2023 18:33:08.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 18:33:08.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80
+20-Sep-2023 18:33:08.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\temp
+20-Sep-2023 18:33:09.029 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+20-Sep-2023 18:33:09.029 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20-Sep-2023 18:33:09.029 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Sep-2023 18:33:09.044 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+20-Sep-2023 18:33:09.395 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 18:33:09.462 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [705] milliseconds
+20-Sep-2023 18:33:09.552 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Sep-2023 18:33:09.552 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.80]
+20-Sep-2023 18:33:09.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\docs]
+20-Sep-2023 18:33:09.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\docs] has finished in [321] ms
+20-Sep-2023 18:33:09.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\examples]
+20-Sep-2023 18:33:10.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\examples] has finished in [710] ms
+20-Sep-2023 18:33:10.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\host-manager]
+20-Sep-2023 18:33:10.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\host-manager] has finished in [54] ms
+20-Sep-2023 18:33:10.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\manager]
+20-Sep-2023 18:33:10.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\manager] has finished in [58] ms
+20-Sep-2023 18:33:10.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\ROOT]
+20-Sep-2023 18:33:10.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Natti\Downloads\eclipse-jee-2023-06-R-win32-x86_64\eclipse\Java II but git\Java-II-CIS175\Module4Johns\tomcat\apache-tomcat-9.0.80\webapps\ROOT] has finished in [30] ms
+20-Sep-2023 18:33:10.742 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 18:33:10.774 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1310] milliseconds
+20-Sep-2023 18:38:01.798 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Sep-2023 18:38:01.799 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 18:38:01.802 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Sep-2023 18:38:01.827 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Sep-2023 18:38:01.833 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
