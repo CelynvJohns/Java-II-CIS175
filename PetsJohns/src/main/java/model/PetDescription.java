@@ -13,29 +13,28 @@ import javax.persistence.Table;
 public class PetDescription {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int Id;
+	private int ID;
 	private String name;
-	private String age;
+	private int age;
 	private String pattern;
-	private String tempermant;
-	private String size;
+	private String temperament;
+	private int size;
 	@ManyToOne
-	@JoinColumn(name = "ID", nullable=false)
+	@JoinColumn(name = "pet_id")
 	private Pet pet = new Pet();
 
-	
 	public PetDescription() {
 		super();
 	}
 
-	public int getId() {
-		return Id;
+	public int getPdId() {
+		return ID;
 	}
 
-	public void setId(int id) {
-		Id = id;
+	public void setID(int ID) {
+		this.ID = ID;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -44,11 +43,11 @@ public class PetDescription {
 		this.name = name;
 	}
 
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
@@ -60,19 +59,19 @@ public class PetDescription {
 		this.pattern = pattern;
 	}
 
-	public String getTempermant() {
-		return tempermant;
+	public String getTemperament() {
+		return temperament;
 	}
 
-	public void setTempermant(String tempermant) {
-		this.tempermant = tempermant;
+	public void setTemperament(String temperament) {
+		this.temperament = temperament;
 	}
 
-	public String getSize() {
+	public int getSize() {
 		return size;
 	}
 
-	public void setSize(String size) {
+	public void setSize(int size) {
 		this.size = size;
 	}
 
@@ -86,10 +85,8 @@ public class PetDescription {
 
 	@Override
 	public String toString() {
-		return "PetDescription [Id=" + Id + ", name=" + name + ", age=" + age + ", pattern=" + pattern + ", tempermant="
-				+ tempermant + ", size=" + size + ", pet=" + pet + "]";
+		return "PetDescription [Id=" + ID + ", name=" + name + ", age=" + age + ", pattern=" + pattern + ", temperament="
+				+ temperament + ", size=" + size + ", pet=" + pet + "]";
 	}
-	
-	
-	
+
 }

@@ -11,7 +11,7 @@ import javax.persistence.TypedQuery;
 import model.Pet;
 
 public class PetHelper {
-EntityManagerFactory factory = Persistence.createEntityManagerFactory("PetJohns");
+EntityManagerFactory factory = Persistence.createEntityManagerFactory("PetsJohns");
 	
 	//method to add pet
 	public void add(Pet model) {
@@ -32,10 +32,10 @@ EntityManagerFactory factory = Persistence.createEntityManagerFactory("PetJohns"
 	}
 	  
 	//method to search for Pet using JPQL query
-	public Pet searchPetByType(String type) {
+	public Pet searchPetByBreed(String breed) {
 		EntityManager manager = factory.createEntityManager();
-		TypedQuery<Pet> query = manager.createQuery("SELECT i FROM pet AS i WHERE i.type = :type", Pet.class);
-		query.setParameter("type", type);
+		TypedQuery<Pet> query = manager.createQuery("SELECT i FROM pet AS i WHERE i.breed = :breed", Pet.class);
+		query.setParameter("breed", breed);
 		Pet dbEntity = query.getSingleResult();
 		manager.close();
 		return dbEntity;

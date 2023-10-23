@@ -19,11 +19,11 @@ public class Pet {
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private int id;
 		private String type;
-		private String breed;
+		private String breed;		
 		
 		@OneToMany(mappedBy = "pet", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-
 		private List<PetDescription> petDescription;
+
 		
 		public Pet() {
 			super();
