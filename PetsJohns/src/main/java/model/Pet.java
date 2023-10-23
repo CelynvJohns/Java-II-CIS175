@@ -1,5 +1,9 @@
 package model;
 
+/**
+ * @author Celyn - jvjohns CIS175 - Fall 2023 | Oct 20, 2023
+ */
+
 import java.util.List;
 
 import javax.persistence.CascadeType;
