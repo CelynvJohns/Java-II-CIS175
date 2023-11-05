@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert New or Edit Recipe</title>
+</head>
+<body>
+<form th:object="${newRecipes}" th:action="@{/update/{id}(id=${newRecipes.id})}" method=POST>
+Name: <input name="name" size="20" th:field="*{name}"><br />
+Ingredients: <input name="ingredients" size="20" th:field="*{ingredients}"><br />
+Instructions: <input name="instructions" size="20" th:field="*{instructions}"><br />
+Hours: <input name="hours" size="20" th:field="*{hours}"><br />
+Minutes: <input name="minutes" size="20" th:field="*{minutes}"><br />
+<input name="Submit" type="submit" value="submit" />
+</form>
+<a href="../viewAll">View All Recipes</a>
+
+</body>
+</html>
